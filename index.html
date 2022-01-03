@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <div class="side-bar"> <!-- the left side bar, dark gray -->
+    <img src="https://cdn.pixabay.com/photo/2017/01/31/23/42/animal-2028258_960_720.png" alt="mockup logo" height="60" width="70" class="logo" />
+    <p></p>
+    <div class="side-bar-item">
+      <i class="fas fa-home" style="font-size: 20px; opacity: 0.7"></i>
+      <h6 style="margin-right: 7px">My Home</h6>
+    </div>
+    <div class="side-bar-item">
+      <i class="fas fa-clipboard-list" style="font-size: 20px; opacity: 0.7"></i>
+      <h6 style="margin-right: 7px">Features</h6>
+    </div>
+    <div class="side-bar-item">
+      <i class="fas fa-exclamation-triangle" style="font-size: 20px; opacity: 0.7"></i>
+      <h6 style="margin-right: 7px">Issues</h6>
+    </div>
+    <div class="side-bar-item">
+      <i class="fas fa-flag" style="font-size: 20px; opacity: 0.7"></i>
+      <h6 style="margin-right: 5px">Dev Requests</h6>
+    </div>
+    <div class="side-bar-item">
+      <i class="fas fa-box-open" style="font-size: 20px; opacity: 0.7"></i>
+      <h6 style="margin-right: 7px">Product</h6>
+    </div>
+    <div class="side-bar-item">
+      <i class="fas fa-address-card" style="font-size: 20px; opacity: 0.7"></i>
+      <h6 style="margin-right: 10px">Signups</h6>
+    </div>
+    <div class="side-bar-item" style="
+          background-color: #3a4354;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 5px;
+          padding-bottom: 7px;
+        ">
+      <i class="fas fa-graduation-cap" style="font-size: 20px; opacity: 0.7"></i>
+      <h6>Knowledge</h6>
+    </div>
+  </div>
+  <div class="top-bar">
+    <div class="top-bar-item">
+      <i class="fas fa-users-cog" style="font-size: 30px; opacity: 0.7"></i>
+
+      <input type="search" name="Search org" id="search-1" placeholder=" Search Org or Org user" />
+    </div>
+    <div class="top-bar-item">
+      <i class="fas fa-search-plus" style="font-size: 30px; opacity: 0.7"></i>
+
+      <input type="search" name="Search org" id="search-2"
+        placeholder="Search customer Request/Feature Story/Issue/Dev Request" />
+    </div>
+
+    <div class="top-bar-end-items">
+      <div class="top-bar-end-item">
+        <i class="fas fa-bell" style="font-size: 30px; opacity: 0.7"></i>
+        <h5>Notifications</h5>
+      </div>
+
+      <div class="top-bar-end-item">
+        <i class="fas fa-user-circle" style="font-size: 30px; opacity: 0.7"></i>
+        <h5 style="margin-left: 10px"><b>John Doe</b></h5>
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+  </div>
+  <div class="tab-bar">
+    <h5>Summary</h5>
+    <span>
+      <h5 style="border-bottom: 2.5px rgb(20, 141, 221) solid;" id="tab-bar-bold-item">
+        Help Docs
+      </h5>
+    </span>
+        <h5>Dev Requests</h5>
+        <h5>My Drafts</h5>
+        <h5>My Articles</h5>
+  </div>
+  <hr style="border-top: 0.5px rgb(204, 204, 204) solid;">
+  <div class="bottom-content">
+    <div class="guides">
+      <h5>SHORTCUTS</h5>
+      <span style="
+            background-color: #d7e8f8;
+            padding-bottom: 10px;
+            padding-top: 10px;
+          ">
+        <h5>Adminstration Guide</h5>
+        <h6>7 folders</h6>
+      </span>
+
+      <h5>Manager Guide</h5>
+      <h6>9 folders</h6>
+      <hr style="border-top: 1px rgb(177, 177, 177) solid; border-bottom: none;" />
+      <h5>Employee Guide</h5>
+      <h6>8 folders</h6>
+      <hr style="border-top: 1px rgb(177, 177, 177) solid; border-bottom: none;" />
+      <h5>CS Guide</h5>
+      <h6>11 folders</h6>
+    </div>
+    <div class="admin-guide">
+      <span>
+        <h4>Adminstration Guide</h4>
+        <h6>The Admin guide of Help Docs</h6>
+      </span>
+      <div class="admin-guide-box-row">
+        <div class="admin-guide-items">
+          <div class="admin-guide-item-heading">
+
+            <h3>Organization module</h3>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <h1>Manage on/offboarding processes, company assets, expenses, etc.</h1>
+
+        </div>
+        <div class="admin-guide-items">
+          <div class="admin-guide-item-heading">
+
+            <h3> Performance</h3>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <h1>Manage employee objectives, skills, competencies, reviews here.</h1>
+
+        </div>
+        <div class="admin-guide-items">
+          <div class="admin-guide-item-heading">
+
+            <h3>Time Attend</h3>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <h1>Configure leaves and attendance tracking policies (PTO), employee assignments, productivity tracker here.</h1>
+
+        </div>
+
+      </div>
+      <div class="admin-guide-box-row">
+        <div class="admin-guide-items">
+          <div class="admin-guide-item-heading">
+
+            <h3>Project</h3>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <h1>Manage tasks, timesheets and all other functions pertaining to projects here.</h1>
+
+        </div>
+        <div class="admin-guide-items">
+          <div class="admin-guide-item-heading">
+
+            <h3>Payroll</h3>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <h1>Information about payroll related queries.</h1>
+
+        </div>
+        <div class="admin-guide-items">
+          <div class="admin-guide-item-heading">
+
+            <h3>Settings</h3>
+            <i class="fas fa-ellipsis-v"></i>
+          </div>
+          <h1>You can define & update your settings here.</h1>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <script src="https://kit.fontawesome.com/f28b055962.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
